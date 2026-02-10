@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Hero from './components/HeroSection';
+import ProjectSection from './components/ProjectSection';
+
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -30,12 +32,9 @@ function App() {
       
       <main className="pt-20">
         <Hero />
+        <ProjectSection></ProjectSection>
+        
 
-        <section id="projects" className="min-h-screen py-20 px-6">
-          <h2 className="text-5xl font-bold text-center mb-16">
-            Featured <span className="text-primary">Projects</span>
-          </h2>
-        </section>
 
         <section id="skills" className="min-h-screen py-20 px-6">
           <h2 className="text-5xl font-bold text-center mb-16">
