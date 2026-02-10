@@ -41,7 +41,7 @@ function Skills() {
           {Object.entries(skillsData).map(([key, category]) => (
             <div 
               key={key}
-              className="bg-card border border-border rounded-lg p-6"
+              className="bg-card border border-border rounded-lg p-6 hover:border-primary/50 transition-all"
             >
               
               {/* Category header */}
