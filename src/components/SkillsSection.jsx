@@ -24,7 +24,7 @@ function Skills() {
   };
   
   return (
-    <section id="skills" className="min-h-screen py-20 px-6">
+    <section id="skills" className="min-h-screen py-20 px-6 bg-secondary">
       <div className="max-w-6xl mx-auto">
         
         {/* Section heading */}
@@ -37,7 +37,7 @@ function Skills() {
         </p>
         
         {/* Skills grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {Object.entries(skillsData).map(([key, category]) => (
             <div 
               key={key}
