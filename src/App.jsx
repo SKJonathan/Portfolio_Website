@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Hero from './components/HeroSection';
 import ProjectSection from './components/ProjectSection';
+import Skills from './components/SkillsSection'
+import AboutMe from './components/AboutMe'
 
 
 function App() {
@@ -33,20 +35,15 @@ function App() {
       <main className="pt-20">
         <Hero />
         <ProjectSection></ProjectSection>
+        <Skills></Skills>
+        <AboutMe></AboutMe>
+        
         
 
 
-        <section id="skills" className="min-h-screen py-20 px-6">
-          <h2 className="text-5xl font-bold text-center mb-16">
-            My <span className="text-primary">Skills</span>
-          </h2>
-        </section>
+      
 
-        <section id="about" className="min-h-screen py-20 px-6">
-          <h2 className="text-5xl font-bold text-center mb-16">
-            About <span className="text-primary">Me</span>
-          </h2>
-        </section>
+        
       </main>
       
     </div>
