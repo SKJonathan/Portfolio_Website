@@ -43,11 +43,7 @@ function App() {
 
       
 
-        <section id="about" className="min-h-screen py-20 px-6">
-          <h2 className="text-5xl font-bold text-center mb-16">
-            About <span className="text-primary">Me</span>
-          </h2>
-        </section>
+        
       </main>
       
     </div>
