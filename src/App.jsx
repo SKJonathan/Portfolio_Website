@@ -5,6 +5,7 @@ import Hero from './components/HeroSection';
 import ProjectSection from './components/ProjectSection';
 import Skills from './components/SkillsSection'
 import AboutMe from './components/AboutMe'
+import ContactSection from './components/ContactSection'
 
 
 function App() {
@@ -37,8 +38,7 @@ function App() {
         <ProjectSection></ProjectSection>
         <Skills></Skills>
         <AboutMe></AboutMe>
-        
-        
+        <ContactSection />
 
 
       

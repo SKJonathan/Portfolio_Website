@@ -1,9 +1,13 @@
 function AboutMe(){
     return (
         <section id="about" className="py-24 px-6">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              A Bit <span className="text-gradient">About Me</span>
+          <div className="max-w-6xl mx-auto">
+          <h2 className="text-5xl font-bold text-center mb-4">
+              A Bit <span className="text-primary">About Me</span>
             </h2>
+            <p className="text-center text-muted-foreground mb-16">
+              The person behind the code
+            </p>
             <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 text-muted-foreground leading-relaxed">
               <p>
@@ -13,13 +17,10 @@ function AboutMe(){
               </p>
               <p>
                 When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open source projects, or sharing knowledge with 
-                the developer community.
+                playing video games, cooking or exploring the world.
               </p>
               <p>
-                I believe in writing clean, maintainable code and creating 
-                experiences that make a difference. Every project is an 
-                opportunity to learn and grow.
+                I think I write clean and maintainable code.
               </p>
             </div>
 
@@ -39,9 +40,9 @@ function AboutMe(){
                     
     passions: [
         "Clean Code",
-        "Open Source",
+        "Video Games",
         "Problem Solving",
-        "Continuous Learning"
+        "Non stop Learning"
     ],
                     
     currentFocus: "Bachelor Project",
@@ -54,8 +55,8 @@ function AboutMe(){
               </pre>
             </div>
           </div>
-          
-          
+
+          </div>
         </section>
 
 

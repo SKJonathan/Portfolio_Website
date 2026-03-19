@@ -14,7 +14,7 @@ function Skills() {
     backend: {
       title: "Backend",
       icon: "",
-      skills: [, "SQLite", "PostgreSQL",]
+      skills: ["SQLite", "PostgreSQL"]
     },
     tools: {
       title: "Tools & DevOps",
@@ -48,7 +48,7 @@ function Skills() {
               <div className="flex items-center gap-3 mb-4">
                 <span className="text-3xl">{category.icon}</span>
                 <h3 className="text-xl font-bold text-primary">
-                  // {category.title}
+                  {category.title}
                 </h3>
               </div>
               

@@ -42,7 +42,7 @@ function ProjectSection() {
                 Featured Projects
             </h2>
 
-            <p className="text-center text-muted-foreground mb-1">
+            <p className="text-center text-muted-foreground mb-12">
                 here are some of my projects I've worked on!
             </p>
 

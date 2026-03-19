@@ -12,8 +12,8 @@ function Navbar({ setSidebarOpen, darkMode }) {
         </button>
 
         {/* Logo */}
-        <div className="text-primary font-bold text-2xl"></div>
-        
+        <div className="text-primary font-bold text-2xl font-mono">JS</div>
+
         {/* Nav links */}
         <div className="flex gap-6 text-primary font-bold">
           <a href="#home" className="hover:text-primary/80 transition-colors">
@@ -22,8 +22,14 @@ function Navbar({ setSidebarOpen, darkMode }) {
           <a href="#projects" className="hover:text-primary/80 transition-colors">
             Projects
           </a>
+          <a href="#skills" className="hover:text-primary/80 transition-colors">
+            Skills
+          </a>
           <a href="#about" className="hover:text-primary/80 transition-colors">
-            About me
+            About
+          </a>
+          <a href="#contact" className="hover:text-primary/80 transition-colors">
+            Contact
           </a>
         </div>
       </div>
