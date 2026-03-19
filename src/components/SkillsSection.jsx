@@ -4,7 +4,7 @@ function Skills() {
     languages: {
       title: "Languages",
       icon: "",
-      skills: ["JavaScript", "Python", "C#", "Java", "Kotlin", "C++"]
+      skills: ["JavaScript", "TypeScript", "Python", "C#", "Java", "Kotlin", "C++"]
     },
     frontend: {
       title: "Frontend",
