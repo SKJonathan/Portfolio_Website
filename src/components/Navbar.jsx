@@ -12,7 +12,7 @@ function Navbar({ setSidebarOpen, darkMode }) {
         </button>
 
         {/* Logo */}
-        <div className="text-primary font-bold text-2xl font-mono">JS</div>
+        <div />
 
         {/* Nav links */}
         <div className="flex gap-6 text-primary font-bold">
