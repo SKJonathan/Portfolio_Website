@@ -3,23 +3,23 @@ function ProjectSection() {
   const projects = [  
     {
       id: 1,
-      title: "Template 1",
+      title: "Coming soon",
       description: "loren ipsom",
-      tags: ["React", "HTML", "CSS"],
+      tags: ["React", "HTML", "CSS", "Vite"],
       github: "",
       demo: null
     },
     {
       id: 2,
-      title: "Template 2",
+      title: "Coming soon",
       description: "loren ipsom",
-      tags: ["React", "HTML", "Tailwind"],
+      tags: ["Python", "Docker", ""],
       github: "",
       demo: null
     },
     {
       id: 3,
-      title: "Template 3",
+      title: "Coming soon",
       description: "loren ipsom",
       tags: ["React", "Tailwind", "HTML"],
       github: "",
@@ -27,7 +27,7 @@ function ProjectSection() {
     },
     {
       id: 4,
-      title: "Template 4",
+      title: "Coming soon",
       description: "loren ipsom",
       tags: ["React", "HTML", "Tailwind"],
       github: "",

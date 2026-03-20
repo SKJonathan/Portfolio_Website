@@ -11,13 +11,13 @@ function ContactSection() {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
           <a
-            href="mailto:jonathan@example.com"
+            href="jskroppa@gmail.com"
             className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium font-mono hover:bg-primary/90 transition-colors"
           >
             Say Hello
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/SKJonathan"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-card border border-border text-foreground px-8 py-3 rounded-lg font-medium font-mono hover:border-primary/50 transition-colors"
@@ -25,7 +25,7 @@ function ContactSection() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/"
+            href="https://www.linkedin.com/in/jonathanskr%C3%B8ppa/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-card border border-border text-foreground px-8 py-3 rounded-lg font-medium font-mono hover:border-primary/50 transition-colors"
