@@ -6,11 +6,13 @@ function ProjectCard({ project }) {
       
       {/* IMAGE */}
       <div className="w-full h-48 bg-secondary/50 overflow-hidden">
-        {/* <img 
-          // src={project.image} 
-          alt={project.title}
-          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-        /> */}
+        {project.image && (
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+          />
+        )}
       </div>
       
       {/* CARD CONTENT */}

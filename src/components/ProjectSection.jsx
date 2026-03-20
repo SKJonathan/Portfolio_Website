@@ -3,11 +3,12 @@ function ProjectSection() {
   const projects = [  
     {
       id: 1,
-      title: "Coming soon",
-      description: "loren ipsom",
-      tags: ["React", "HTML", "CSS", "Vite"],
-      github: "",
-      demo: null
+      title: "YellowCarGame",
+      description: "A computer vision assignment that detects cars in images and determines whether they are yellow or not.",
+      tags: ["Python", "Computer Vision"],
+      github: "https://github.com/SKJonathan/YellowCarGame",
+      demo: null,
+      image: `${import.meta.env.BASE_URL}YellowCarImage.png`
     },
     {
       id: 2,
