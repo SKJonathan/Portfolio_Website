@@ -1,3 +1,5 @@
+import TypewriterText from './TypewriterText';
+
 function Hero(){
     return (
         
@@ -7,7 +9,7 @@ function Hero(){
               I'm <span className="text-primary">Jonathan Skrøppa</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
-              Space Technologist | Software Developer | Dog Lover
+              <TypewriterText />
             </p>
             <div className="flex justify-center gap-5">
               <a href="#projects" className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium font-mono hover:bg-primary/90 transition-colors">
