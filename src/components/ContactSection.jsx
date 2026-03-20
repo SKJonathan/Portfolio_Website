@@ -11,7 +11,7 @@ function ContactSection() {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-16">
           <a
-            href="jskroppa@gmail.com"
+            href="mailto:jskroppa@gmail.com"
             className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-medium font-mono hover:bg-primary/90 transition-colors"
           >
             Say Hello
