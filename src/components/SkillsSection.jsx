@@ -14,7 +14,7 @@ function Skills() {
     backend: {
       title: "Backend",
       icon: "",
-      skills: ["SQLite", "PostgreSQL"]
+      skills: ["SQLite", "PostgreSQL", "Supabase"]
     },
     tools: {
       title: "Tools & DevOps",
