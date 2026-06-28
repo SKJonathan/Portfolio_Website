@@ -12,19 +12,20 @@ function ProjectSection() {
     },
     {
       id: 2,
-      title: "Coming soon",
-      description: "loren ipsom",
-      tags: ["Python", "Docker", ""],
-      github: "",
-      demo: null
+      title: "Auto Labeling Tool",
+      description: "My Bachelor Project: An ML backend that connects to Label Studio and automatically pre-labels images — supporting both image classification (ResNet-50) and object detection (Faster R-CNN), switchable via config.",
+      tags: ["Docker", "Python", "PyTorch", "TorchVision (Faster R-CNN / ResNet-50)", "Label Studio ML SDK"],
+      github: "https://github.com/SKJonathan/Bachelor-Auto_Labeling_Tool",
+      demo: null,
+      image: `${import.meta.env.BASE_URL}BachelorImage.png`
     },
     {
       id: 3,
-      title: "Coming soon",
-      description: "loren ipsom",
-      tags: ["React", "Tailwind", "HTML"],
-      github: "",
-      demo: null
+      title: "Rank My Thing",
+      description: "A Lovable app — a redo of a website I used to use, with the things I didn't like about the original fixed.",
+      tags: ["Lovable", "Supabase"],
+      github: "https://github.com/SKJonathan/rank-my-thing",
+      demo: "https://skjonathan.github.io/rank-my-thing/"
     },
     {
       id: 4,

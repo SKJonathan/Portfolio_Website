@@ -9,6 +9,16 @@
   }
 }
 
+/* Typewriter cursor blink */
+.blinking-cursor {
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
 :root {
   --background: 220 20% 6%;
   --foreground: 210 20% 95%;
