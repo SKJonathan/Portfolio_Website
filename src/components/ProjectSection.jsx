@@ -21,11 +21,11 @@ function ProjectSection() {
     },
     {
       id: 3,
-      title: "Rank My Thing",
-      description: "A Lovable app — a redo of a website I used to use, with the things I didn't like about the original fixed.",
-      tags: ["Lovable", "Supabase"],
-      github: "https://github.com/SKJonathan/rank-my-thing",
-      demo: "https://skjonathan.github.io/rank-my-thing/"
+      title: "PitwallOne website",
+      description: "A Formula 1 based website, that uses api's to get data and show statistic in various ways. From 2026 seasons stats, to next race information, head to head stats, F1.5 standings.",
+      tags: ["React", "Vue", "TailwindCSS"],
+      github: "https://github.com/SKJonathan/PitWallOne",
+      demo: "https://pitwallone-po7q.onrender.com/"
     },
     {
       id: 4,

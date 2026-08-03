@@ -5,6 +5,8 @@ const phrases = [
   "Space Technologist",
   "Software Developer",
   "Dog Lover",
+  "Computer Visionist",
+  "Full-Stack Developer"
   
 ];
 
